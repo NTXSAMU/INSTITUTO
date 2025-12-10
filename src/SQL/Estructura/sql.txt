@@ -1,0 +1,84 @@
+
+/*DROP DATABASE IF EXISTS instituto;
+
+CREATE DATABASE instituto CHARACTER SET latin1 COLLATE latin1_spanish_ci;
+
+USE instituto;
+
+CREATE TABLE alumno(
+    id INT UNSIGNED NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    nombre VARCHAR(100),
+    carnet_conducir TINYINT,
+    estado_matricula VARCHAR(50),
+    direccion VARCHAR(200)
+);
+
+CREATE TABLE asignatura(
+    id INT UNSIGNED NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    nombre VARCHAR(100),
+    curso SMALLINT UNSIGNED
+);
+
+CREATE TABLE matricula (
+    id INT UNSIGNED NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    id_alumno INT UNSIGNED,
+    id_asignatura INT UNSIGNED,
+    nota DOUBLE,
+    FOREIGN KEY (id_alumno) REFERENCES alumno(id),
+    FOREIGN KEY (id_asignatura) REFERENCES asignatura(id)
+);
+
+CREATE TABLE usuarios (
+    id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+    usuario VARCHAR(50) COLLATE latin1_spanish_ci NOT NULL,
+    contrasena VARCHAR(100) COLLATE latin1_spanish_ci NOT NULL,
+    PRIMARY KEY (id),
+    UNIQUE KEY usuario (usuario)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_spanish_ci;
+
+----------------------------------------------------------
+-- INSERTS ALEATORIOS
+----------------------------------------------------------
+
+-- Tabla alumno
+INSERT INTO alumno (nombre, carnet_conducir, estado_matricula, direccion) VALUES
+('Diego Santamaría', 1, 'Matriculado', 'Av. Primavera 12, Murcia'),
+('Laura Benítez', 0, 'Pendiente', 'Calle Olivo 88, Cádiz'),
+('Rubén Alcázar', 1, 'Matriculado', 'Calle Roble 54, Salamanca'),
+('Patricia Montes', 1, 'Matriculado', 'Camino Viejo 203, Vigo'),
+('Víctor Salado', 0, 'Baja', 'Calle Río Verde 7, Logroño'),
+('Clara Hidalgo', 1, 'Matriculado', 'Pasaje Romero 33, Pamplona'),
+('Tomás Aguilera', 0, 'Pendiente', 'Av. Europa 91, León'),
+('Silvia Cordero', 1, 'Matriculado', 'Calle Fuente Clara 18, Córdoba'),
+('Mateo Serrano', 0, 'Baja', 'Calle Molino 45, Burgos'),
+('Helena Durán', 1, 'Matriculado', 'Plaza del Parque 3, Tarragona');
+
+-- Tabla asignatura
+INSERT INTO asignatura (nombre, curso) VALUES
+('Álgebra Fundamental', 1),
+('Comunicación Escrita', 1),
+('Geografía Moderna', 2),
+('Física Aplicada', 2),
+('Química Orgánica', 2),
+('Inglés Técnico', 3),
+('Desarrollo Web', 3),
+('Ciencias Naturales', 1),
+('Actividad Deportiva', 1),
+('Ética y Sociedad', 2);
+
+-- Tabla matricula
+INSERT INTO matricula (id_alumno, id_asignatura, nota) VALUES
+(1, 1, 7.9), (1, 2, 6.4), (1, 3, 8.1), (1, 4, 9.3), (1, 5, 7.2),
+(2, 1, 5.8), (2, 6, 8.7), (2, 7, 6.1), (2, 8, 7.5), (2, 9, 9.0),
+(3, 2, 8.3), (3, 3, 6.8), (3, 4, 7.9), (3, 5, 6.1), (3, 10, 8.6),
+(4, 1, 9.4), (4, 5, 7.3), (4, 6, 6.5), (4, 8, 8.0), (4, 10, 9.2),
+(5, 2, 6.0), (5, 3, 5.7), (5, 7, 7.4), (5, 8, 6.8), (5, 9, 8.9),
+(6, 4, 7.5), (6, 5, 6.6), (6, 6, 9.1), (6, 9, 8.3), (6, 10, 7.4),
+(7, 1, 6.4), (7, 3, 7.2), (7, 4, 5.9), (7, 6, 6.3), (7, 8, 8.5),
+(8, 2, 8.1), (8, 4, 7.0), (8, 5, 6.4), (8, 9, 7.6), (8, 10, 8.2),
+(9, 3, 6.2), (9, 5, 8.4), (9, 6, 7.2), (9, 7, 7.0), (9, 10, 9.4),
+(10, 1, 5.9), (10, 2, 7.6), (10, 8, 6.7), (10, 9, 8.1), (10, 10, 7.8);
+
+-- Tabla usuarios
+INSERT INTO usuarios VALUES (1,'admin','admin');
+ /*
