@@ -1,0 +1,57 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Instituto:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Instituto_jar</output-path>
+    <root id="archive" name="Instituto.jar">
+      <element id="module-output" name="Instituto" />
+      <element id="library" level="project" name="pdfbox-2.0" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/io-9.4.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/svg-9.4.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/hyph-9.4.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/pdfa-9.4.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/sign-9.4.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/forms-9.4.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/pdfua-9.4.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/kernel-9.4.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/layout-9.4.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/commons-9.4.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/pdftest-9.4.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/barcodes-9.4.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/font-asian-9.4.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/io-9.4.0-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/io-9.4.0-sources.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/svg-9.4.0-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/svg-9.4.0-sources.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/pdfa-9.4.0-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/pdfa-9.4.0-sources.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/sign-9.4.0-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/sign-9.4.0-sources.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/forms-9.4.0-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/forms-9.4.0-sources.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/pdfua-9.4.0-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/pdfua-9.4.0-sources.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/kernel-9.4.0-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/kernel-9.4.0-sources.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/layout-9.4.0-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/layout-9.4.0-sources.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/commons-9.4.0-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/commons-9.4.0-sources.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/pdftest-9.4.0-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/pdftest-9.4.0-sources.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/barcodes-9.4.0-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/barcodes-9.4.0-sources.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/styled-xml-parser-9.4.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/bouncy-castle-adapter-9.4.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/bouncy-castle-connector-9.4.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/styled-xml-parser-9.4.0-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/styled-xml-parser-9.4.0-sources.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/bouncy-castle-fips-adapter-9.4.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/bouncy-castle-adapter-9.4.0-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/bouncy-castle-adapter-9.4.0-sources.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/bouncy-castle-connector-9.4.0-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/bouncy-castle-connector-9.4.0-sources.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/bouncy-castle-fips-adapter-9.4.0-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/iText-Core-9.4.0/bouncy-castle-fips-adapter-9.4.0-sources.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/mysql-connector-j-9.5.0/mysql-connector-j-9.5.0/mysql-connector-j-9.5.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

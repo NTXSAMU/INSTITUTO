@@ -11,7 +11,7 @@ public class ConexionBD {
 
     private static final String URL = "jdbc:mysql://localhost:3306/instituto";
     private static final String USER = "root";
-    private static final String PASSWORD = "usuario"; // Contraseña por defecto, cambiar si es necesario
+    private static final String PASSWORD = "samuel0978123AB."; // Contraseña por defecto, cambiar si es necesario
 
     public static Connection getConnection() throws SQLException {
         return DriverManager.getConnection(URL, USER, PASSWORD);

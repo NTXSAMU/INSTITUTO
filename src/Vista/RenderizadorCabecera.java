@@ -8,8 +8,8 @@ public class RenderizadorCabecera extends DefaultTableCellRenderer {
     public RenderizadorCabecera() {
         setHorizontalAlignment(CENTER);
         setOpaque(true);
-        setBackground(new Color(30, 144, 255)); // Azul dodger
+        setBackground(new Color(23, 1, 1));
         setForeground(Color.WHITE);
-        setFont(new Font("Arial", Font.BOLD, 12));
+        setFont(new Font("Arial", Font.BOLD, 16));
     }
 }

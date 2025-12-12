@@ -7,7 +7,7 @@ import java.util.List;
 public class ConexionDAOInstituto {
     private static final String URL = "jdbc:mysql://localhost:3306/instituto";
     private static final String USER = "root";
-    private static final String PASSWORD = "usuario";
+    private static final String PASSWORD = "samuel0978123AB.";
 
     public static List<Alumno> obtenerAlumnos() {
         List<Alumno> alumnos = new ArrayList<>();

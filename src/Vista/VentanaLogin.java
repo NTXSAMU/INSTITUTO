@@ -13,7 +13,7 @@ public class VentanaLogin extends JFrame {
     private JPasswordField txtContrasena;
 
     public VentanaLogin() {
-        setTitle("Login - Sistema Escolar");
+        setTitle("LOGIN PROYECTO");
         setSize(400, 300);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
@@ -25,7 +25,7 @@ public class VentanaLogin extends JFrame {
 
         GridBagConstraints gbc = new GridBagConstraints();
         gbc.insets = new Insets(10, 10, 10, 10);
-        gbc.fill = GridBagConstraints.HORIZONTAL; // Arreglo para campos de texto pequeños
+        gbc.fill = GridBagConstraints.HORIZONTAL;
 
         // Título
         JLabel lblTitulo = new JLabel("Sistema Escolar");
