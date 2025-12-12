@@ -33,7 +33,6 @@ public class VentanaPrincipal extends JFrame {
     private GestorPDF gestorPDF;
 
     public VentanaPrincipal() {
-        EstiloAplicacion.aplicarEstilo();
         controlador = new Controlador();
 
         setTitle("Sistema Escolar - Ventana Principal");

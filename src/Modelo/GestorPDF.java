@@ -9,10 +9,7 @@ import javax.swing.filechooser.FileNameExtensionFilter;
 import java.io.File;
 import java.io.IOException;
 
-/**
- * Clase gestora que maneja las operaciones de PDF
- * Integra el VisorPDF y el GeneradorPDF
- */
+
 public class GestorPDF {
 
     private VisorPDF visorPDF;
